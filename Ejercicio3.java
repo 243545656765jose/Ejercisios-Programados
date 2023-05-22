@@ -8,7 +8,6 @@ public class Ejercicio3{
       double area = (num^2)*pi;
       double perimetro= (2*pi)*num;
       System.out.println("El area es :"+area+"y el perimetro es:"+perimetro);
-     
     }
 
 }

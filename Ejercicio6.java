@@ -4,13 +4,16 @@ public class Ejercicio6{
       Scanner input = new Scanner(System.in);
       System.out.println("Digite un numero");
       int num1 = input.nextInt();
+      while (num1<=0){
+        System.out.println("Digite un numero positivo");
+       num1 = input.nextInt();
+      }
+
       for (int i = 1; i <= 10; i++) {
         int resul = num1*i ;
         System.out.println(num1+"x"+i+"="+resul);
       }
-        
     
-      
 
     }
 
