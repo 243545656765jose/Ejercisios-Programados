@@ -4,7 +4,19 @@ public class Eje2{
         Scanner input= new Scanner(System.in);
         System.out.println("Ijite dos numeros:");
         int uno = input.nextInt();
+        while(uno<=0){
+            System.out.println("Ijite dos numeros:");
+            uno = input.nextInt();
+
+        }
+        System.out.println("Escribe un segundo  numero");
         int dos = input.nextInt();
+
+        while(dos<=0){
+            System.out.println("Escribe un segundo  numero");
+            dos = input.nextInt();
+
+        }
         int resultado = 0;
         resultado = uno / dos ;
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Eje3{
-    public static void main(String args[]){
+     public static void main(String args[]){
         Scanner input= new Scanner(System.in);
         System.out.println("DIjite dos numeros:");
         int uno = input.nextInt();
