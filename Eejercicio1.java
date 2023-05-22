@@ -1,13 +1,14 @@
+
 import java.util.Scanner;
-  public class Ejercicio1{
-     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Ingrese un numerillo: ");
-        int num = input.nextInt();
+public class Eejercicio1{
+    public static void main(String []args){
+        Scanner input =new Scanner(System.in);
+        System.out.println("Escribe un numero");
+        int num=input.nextInt();
         if (num%2==0){
-            System.out.println("Es par ");
+            System.out.println("Numero par:"+num);
         }else{
-            System.out.println("Impar");
+            System.out.println("Numero impar:"+num);
         }
     }
 }
