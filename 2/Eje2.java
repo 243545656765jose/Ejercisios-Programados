@@ -7,7 +7,6 @@ public class Eje2{
         while(uno<=0){
             System.out.println("Ijite dos numeros:");
             uno = input.nextInt();
-
         }
         System.out.println("Escribe un segundo  numero");
         int dos = input.nextInt();

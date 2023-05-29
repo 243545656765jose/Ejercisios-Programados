@@ -5,12 +5,20 @@ public class Eje7 {
         Scanner input = new Scanner(System.in);
         System.out.println("Dijite un numero");
         int n= input.nextInt();
-        while(n>0||n<0){
+        double resul=n^2;
+        System.out.println(resul);
 
+        while(n>0){
           System.out.println("Dijite un numero");
           n= input.nextInt();
-
+          resul=Math.pow(n,2);
+          if(n>0){
+            System.out.println(resul);
+          }else{
+            break;
+          }
+          
         }
     }
-    
+  
 }

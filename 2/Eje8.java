@@ -8,7 +8,7 @@ public class Eje8 {
             n = input.nextInt();
             if (n>0){
                 System.out.println("numero positivo");
-            }else if(n<0){
+            }else {
                 System.out.println("numero negativo");
             }
 

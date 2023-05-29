@@ -23,7 +23,6 @@ public class Eje6 {
         if (mes < 1 || mes > 12) {
             return 0;
         }
-        
         if (dia < 1 || dia > 30) {
             return 0;
         } else {
